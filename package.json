@@ -1,11 +1,8 @@
 {
   "name": "commitizen-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/happylinks/test.git"
@@ -16,17 +13,15 @@
     "conventional-recommended-bump": "^0.3.0",
     "cz-conventional-changelog": "^1.2.0",
     "last-release-git": "0.0.2",
-    "semantic-release": "^6.3.2"
+    "semantic-release": "^6.3.2",
+    "standard-version": "^4.0.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "release": {
-    "getLastRelease": "last-release-git",
-    "verifyConditions": {
-      "path": "./verifyConditions"
-    }
+  "scripts": {
+    "release": "standard-version"
   }
 }

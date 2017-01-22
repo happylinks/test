@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/happylinks/test/compare/v0.1.0...v1.0.0) (2017-01-22)
+
+
+### Features
+
+* **testcommit:** Added two separate commits with normal messages ([#2](https://github.com/happylinks/test/issues/2)) ([6c69e5c](https://github.com/happylinks/test/commit/6c69e5c))
+
+
+### BREAKING CHANGES
+
+* testcommit: Hier zit dus ook een breaking change in: andere naam voor een variable.
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/happylinks/test/compare/v0.0.3...v0.1.0) (2017-01-22)
 
